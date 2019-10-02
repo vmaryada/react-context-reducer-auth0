@@ -27,7 +27,7 @@ export default class Auth {
   signOut = () =>
   {
 this.auth0.logout({
-    returnTo: 'http://localhost:3000',
+    returnTo: 'https://vmaryada.github.io/react-context-reducer-auth0/',
     client_id: process.env.REACT_APP_AUTH0_CLIENT_ID
 })
   }
